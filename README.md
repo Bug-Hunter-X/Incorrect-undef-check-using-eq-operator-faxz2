@@ -1,0 +1,1 @@
+This repository contains a Perl script demonstrating an incorrect way to check for undefined values and a corrected version.  The bug arises from using the 'eq' operator to compare against 'undef', which always returns false. The solution uses the 'defined' function for accurate undef checks.
